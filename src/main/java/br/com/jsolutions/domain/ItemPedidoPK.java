@@ -1,4 +1,4 @@
-package br.com.jsolutions;
+package br.com.jsolutions.domain;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -6,9 +6,6 @@ import java.util.Objects;
 import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-
-import br.com.jsolutions.domain.Pedido;
-import br.com.jsolutions.domain.Produto;
 
 @Embeddable
 public class ItemPedidoPK implements Serializable {
